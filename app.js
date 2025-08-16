@@ -273,7 +273,7 @@ In this field, I have completed specialized courses in professional sales, sales
                         Github: <a class="text-blue-500" href="https://github.com/Fat3mi">Fat3mi</a></span>
                     <span class="flex gap-2 text-xl mt-5"><img class="w-6"
                             src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" /> Telegram: <a
-                            class="text-blue-500" href="https://t.me/Fat3mi">@Fat3miii</a></span>
+                            class="text-blue-500" href="https://t.me/Fat3mi">@Fat3mi</a></span>
                 </div>
                   `
     };
