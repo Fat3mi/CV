@@ -22,39 +22,48 @@
       </button>
     </div>
   </div>
-  <header id="header" class="bg-[#003366] text-white shadow-lg">
-    <div class="flex justify-around p-4">
-      <a href="#home" class="font-semibold MyGreentxt hover:text-white">Home</a>
-      <a href="#about" class="font-semibold MyGreentxt hover:text-white">About Me</a>
-      <a href="#experience" class="font-semibold MyGreentxt hover:text-white">Work</a>
-      <a href="#education" class="font-semibold MyGreentxt hover:text-white">Education</a>
-      <a href="#skills" class="font-semibold MyGreentxt hover:text-white">Skills</a>
-      <a href="#contact" class="font-semibold MyGreentxt hover:text-white">Contact</a>
-    </div>
-  </header>
-  <main id="mainContent" aria-hidden="true">
-    <div id="contentInner"
-      class="cursor-default overflow-scroll custom-bg rounded-xl shadow-md w-full h-full pt-20 px-6 max-w-4xl mx-auto">
-      <h1 class="text-3xl mt-10 font-bold mb-6">Welcome!</h1>
-      <p class="mb-1 capitalize text-gray-800 text-xl leading-relaxed  p-4 "> Welcome to my CV website! I'm Seyyed Omid
-        Fatemi</p>
-      <p class="mb-1 capitalize text-gray-800 text-xl leading-relaxed px-4 py-1 "> QA Automation Engineer with 4 years
-        of
-        experience. Here, you can explore my educational background, work experiences, and skills.</p>
-      <p class="mb-1 capitalize text-gray-800 text-xl leading-relaxed px-4 py-1 "> My goal is to provide
-        the best services and collaborate with professional teams.</p>
-      <h5 class="mt-2 capitalize text-rose-800 text-xl leading-relaxed px-4 py-1 flex gap-2"> <svg
-          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-          class="size-6">
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z" />
+  <header id="header" class="bg-[#003366] text-white shadow-lg fixed top-0 w-full z-50">
+    <div class="flex md:text-xl md:justify-center justify-between items-center px-4 py-3">
+      <h1 class=" md:hidden text-xl font-bold">FAT3MI</h1>
+      <button id="menuBtn" class="md:hidden focus:outline-none hover:text-gray-300">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
         </svg>
-        I hope you enjoy your visit! </h5>
+      </button>
+      <nav class="hidden md:flex space-x-7">
+        <a href="#home" class="font-semibold hover:text-gray-300 ">Home</a>
+        <a href="#about" class="font-semibold hover:text-gray-300">About Me</a>
+        <a href="#experience" class="font-semibold hover:text-gray-300">Work</a>
+        <a href="#education" class="font-semibold hover:text-gray-300">Education</a>
+        <a href="#skills" class="font-semibold hover:text-gray-300">Skills</a>
+        <a href="#contact" class="font-semibold hover:text-gray-300">Contact</a>
+      </nav>
+    </div>
+    <nav id="mobileMenu" class="hidden md:hidden flex-col space-y-2 px-4 pb-4 bg-[#003366]">
+      <a href="#home" class="block font-semibold hover:text-gray-300 w-24 border-[#013e7c] border-b ">Home</a>
+      <a href="#about" class="block font-semibold hover:text-gray-300 w-28 border-[#013e7c] border-b ">About Me</a>
+      <a href="#experience" class="block font-semibold hover:text-gray-300 w-32 border-[#013e7c] border-b ">Work</a>
+      <a href="#education" class="block font-semibold hover:text-gray-300 w-36 border-[#013e7c] border-b ">Education</a>
+      <a href="#skills" class="block font-semibold hover:text-gray-300 w-40 border-[#013e7c] border-b ">Skills</a>
+      <a href="#contact" class="block font-semibold hover:text-gray-300 w-44 border-[#013e7c] border-b ">Contact</a>
+    </nav>
+  </header>
+  <main id="mainContent" aria-hidden="true" class="pt-24">
+    <div id="contentInner"
+      class="cursor-default overflow-scroll custom-bg rounded-xl shadow-md w-full h-full pt-10 px-6 max-w-4xl mx-auto">
+      <h1 class="text-3xl mt-10 font-bold mb-6">Welcome!</h1>
+      <p class="mb-1 capitalize text-gray-800 text-xl leading-relaxed p-4">Welcome to my CV website! I'm Seyyed Omid
+        Fatemi</p>
+      <p class="mb-1 capitalize text-gray-800 text-xl leading-relaxed px-4 py-1">QA Automation Engineer with 4 years
+        of experience...</p>
+      <p class="mb-1 capitalize text-gray-800 text-xl leading-relaxed px-4 py-1">My goal is to provide
+        the best services...</p>
     </div>
   </main>
   <footer class="fixed bottom-0 w-full text-center text-gray-100/40">
     © 2025 FAT3MI - All Rights Reserved
   </footer>
+
   <script src="app.js"></script>
 </body>
 
