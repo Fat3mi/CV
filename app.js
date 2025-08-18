@@ -279,13 +279,19 @@ In this field, I have completed specialized courses in professional sales, sales
                   `
     };
 
-      const menuBtn = document.getElementById("menuBtn");
+    const menuBtn = document.getElementById("menuBtn");
     const mobileMenu = document.getElementById("mobileMenu");
+    const menuItems = [document.getElementById("home"), document.getElementById("about"), document.getElementById("experience"), document.getElementById("education"), document.getElementById("skills"), document.getElementById("contact")];
+    
+    const toggleMenu = () => {
+        mobileMenu.classList.toggle("hidden");
+    };
 
-    menuBtn.addEventListener("click", () => {
-      mobileMenu.classList.toggle("hidden");
+    menuBtn.addEventListener("click", toggleMenu);
+
+    menuItems.forEach(item => {
+        item.addEventListener('click', toggleMenu);
     });
-
     function openOverlay(initialPage = 'home') {
         if (isOpen || pendingTransition) return;
         pendingTransition = true;
