@@ -243,18 +243,6 @@ In this field, I have completed specialized courses in professional sales, sales
             <li>Robot Framework</li>
         </ul>
     </div>
-    <div>
-        <h4 class="text-md font-bold MyOrangetxt flex gap-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
-            </svg>
-            Mobile Automation</h4>
-        <ul class="list-disc ml-6">
-            <li>Appium (Cross-platform)</li>
-            <li>Espresso</li>
-        </ul>
-    </div>
     `,
 
         contact: `<h1 class="text-3xl mt-10 font-bold mb-6">Contact</h1>
